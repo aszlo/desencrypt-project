@@ -1,0 +1,115 @@
+*{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    background: #4783ac;
+    }
+
+h1{
+    text-align:left;
+    size: 30px;
+}
+
+
+.textarea{
+    font-size: 20px; 
+    border: none;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+}
+
+::placeholder{
+    color: rgb(219, 249, 251);
+}
+
+.mensaje{
+    border-color: crimson;
+    font-size: 20px; 
+    background: rgb(96, 152, 217);
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+    background-image: url("imagen/Muneco.png"); background-size: 200px; background-repeat: no-repeat; background-position: center 30%;
+}
+
+
+.informacion{
+    color: rgb(219, 249, 251);
+    margin-left: 200px;
+    font-size: 15px;
+}
+
+
+.btnencript:hover{
+    font-size: 22px;
+    border-color: hsl(337, 68%, 72%);
+}
+
+.btnencript:active{
+    font-size: 25px;
+    background-color: #6f6f6f;
+}
+
+.btnencript{
+    background: rgb(202, 5, 5);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    width: 200px;
+}
+
+.btndesenencript:hover{
+    font-size: 22px;
+    border-color: hsl(337, 68%, 72%);
+}
+
+.btndesenencript:active{
+    font-size: 25px;
+    background-color: #ffffff;
+}
+
+.btndesenencript{
+    background: rgb(242, 209, 209);
+    color: rgb(201, 4, 4);
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.copiar:hover{
+    font-size: 22px;
+    border-color: hsl(337, 68%, 72%);
+}
+
+.copiar:active{
+    font-size: 25px;
+    background-color: #6f6f6f;
+}
+
+
+.copiar{
+    background: rgb(22, 99, 206);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    width: 200px;
+    margin-left: 200px;
+
+}
+
+footer { 
+    color: rgb(219, 249, 251);
+    text-align: center;
+    text-wrap: 1px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+  
+  

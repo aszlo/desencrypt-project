@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypt Proyect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+    <h1>
+        <img src="imagen/Logo.png">
+    </h1>
+
+    </header>
+
+    <main>
+        <div class="cajastexto">
+            <textarea id="texto-encriptador" class="textarea" cols="50" rows="15" placeholder="ingresa tu texto aqui"></textarea>
+            <textarea id="campo-mensaje" class="mensaje" cols="40" rows="15" placeholder="Ningun texto fue encontrado"></textarea>
+        </div>
+
+        <div>
+            <h6 class="informacion">&#10071; Solo letras minusculas y sin acento</h6>
+        </div>
+
+
+        <div class="botones">
+            <button class="btnencript" onclick="btnEncriptar();">Encriptar</button>
+            <button class="btndesenencript" onclick="btnDesencriptar()";>Desencriptar</button>
+            <button class="copiar">Copiar</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&#169; Dr. Alejandro Serrano Zimbron, Febrero 2024, Playa del Carmen - Quintana Roo - MX</p>
+    </footer>
+    
+    <script src="script.js"></script>
+ 
+</body>
+</html>
